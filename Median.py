@@ -1,4 +1,4 @@
-
+# Obtains the median of three integers that the user inputs
 def median():
     Num_one = input ("Enter your first integer: ")
     Num_two = input ("Enter your second integer: ")
@@ -17,7 +17,7 @@ def median():
         print("The Median of the numbers is: " + Num_three)
     else:
             print("Invalid")
-
+# Using an array and sort function the program automatically spits out the median of the numbers 
 num = [0, 17, 3]
 num[0] = input("Enter the first number: ")
 num[1] = input("Enter the second number: ")
